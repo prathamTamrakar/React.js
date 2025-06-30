@@ -27,7 +27,7 @@ export default function InputBox({
                     placeholder="Amount"
                     disabled={amountDisable}
                     value={amount}
-                    onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))}
+                    onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))} // to check any value pass or not in input box 
                 />
             </div>
             <div className="w-1/2 flex flex-wrap justify-end text-right">
